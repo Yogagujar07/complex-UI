@@ -1,0 +1,103 @@
+.custom-flex-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+.custom-flex-section .flex-item {
+    text-align: center;
+
+}
+/* Custom CSS for Photo Gallery with CSS Grid */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.carousel:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.carousel-item:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+    transition: opacity 0.1s ease; /* Smooth transition effect */
+}
+
+/* Custom CSS for Bootstrap Card Section */
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+.card-title {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Set the font weight to bold */
+    margin-bottom: 0.75rem; /* Adjust the margin bottom as needed */
+}
+.card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px rgba(209, 7, 7, 0.2);
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #495057;
+}
+.footer h5 {
+    color: #007bff;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #007bff; /* Change the color as needed */
+    font-size: 24px;
+    margin-right: 15px; /* Adjust the spacing between icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+.social-icons a:hover {
+    color: #0056b3; /* Change the hover color as needed */
+}
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: none;
+}
+.back-to-top-btn:hover {
+    background-color: #0056b3;
+}
